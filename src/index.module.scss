@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: none;
+}
+
+body {
+  background-color: #23252c;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin: 80px auto;
+  width: 630px;
+  min-height: 70vh;
+  min-width: 450px;
+  text-align: center;
+  border-radius: 18px;
+  background: #1a1b21;
+  border: 2px solid #23252c;
+}
+
+.header {
+  margin-top: 0;
+}
+
+/* nav {
+  justify-items: center;
+} */
+
+img {
+  width: 100%;
+  height: 500px;
+  border-radius: 10px 10px 0px 0px;
+  border: none;
+}
+.name {
+  color: #fff;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 5px;
+  line-height: 30px;
+  margin-top: 35px;
+}
+
+.title {
+  color: #f3bf99;
+  line-height: 20px;
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+.website {
+  margin-top: 20px;
+  font-size: 15px;
+  color: #f5f5f5;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.contact-profiles {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 38px;
+}
+
+.header > .contact-profiles > a > button {
+  display: inline-block;
+  width: 80%;
+  border: none;
+  border-radius: 10px;
+  margin: auto 30px;
+  padding: 14px 28px;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.header > .contact-profiles > a > button > img {
+  width: 20px;
+  height: 20px;
+  margin-right: 25px;
+}
+.linkedln-button {
+  background: #5093e2;
+  color: #fff;
+}
+.linkedln-button > a {
+  color: #fff;
+}
+
+p {
+  margin-top: 15px;
+  line-height: 20px;
+  letter-spacing: 0.8px;
+}
+
+.interests {
+  color: #fff;
+  margin: 20px 60px;
+  text-align: left;
+}
+
+.about {
+  margin: 20px 60px;
+  text-align: left;
+  color: #fff;
+}
+
+.details {
+  margin-top: 15px;
+  line-height: 25px;
+  letter-spacing: 0.8px;
+}
+
+.footer {
+  margin-top: 20px;
+  background: #161619;
+  height: 80px;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px 20px 20px 20px;
+}
+.footer > a > img {
+  width: 40px;
+  height: 40px;
+}
